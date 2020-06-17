@@ -1,0 +1,36 @@
+name = "sharex-domain-worker"
+type = "webpack"
+account_id = "76ebba46f2852b195a3e31d3e982d0fe"
+workers_dev = true
+webpack_config = "webpack.config.js"
+
+[env.going-g_host]
+name = "imgur-going-g_host"
+route = "*going-g.host/*"
+zone_id = "c941ae02caef07f3a2d26f25bcfa4143"
+
+[env.leeks_life]
+name = "imgur-leeks_life"
+route = "*leeks.life/*"
+zone_id = "481c762e4cb8c639448919acbe559d1c"
+
+[env.indexoutofboundsexception_at]
+name = "imgur-indexoutofboundsexception_at"
+route = "*indexoutofboundsexception.at/*"
+zone_id = "271863e0ff95830e3d469af58fdab3e9"
+
+# stupid domain has other subs
+[env.entered_space]
+name = "imgur-enterd_space"
+route = "entered.space/*"
+zone_id = "dc9a163b42e7b3aa8fc6d68f6967e965"
+
+[env.i_entered_space]
+name = "imgur-i_enterd_space"
+route = "i.entered.space/*"
+zone_id = "dc9a163b42e7b3aa8fc6d68f6967e965"
+
+[env.i-illegally_entered_space]
+name = "imgur-i-illegally_enterd_space"
+route = "i-illegally.entered.space/*"
+zone_id = "dc9a163b42e7b3aa8fc6d68f6967e965"
