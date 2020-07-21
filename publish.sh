@@ -5,3 +5,4 @@ wrangler publish --env i-illegally_entered_space
 wrangler publish --env going-g_host
 wrangler publish --env leeks_life
 wrangler publish --env indexoutofboundsexception_at
+wrangler publish --env kitchengun_rocks

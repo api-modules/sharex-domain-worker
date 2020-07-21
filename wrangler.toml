@@ -34,3 +34,8 @@ zone_id = "dc9a163b42e7b3aa8fc6d68f6967e965"
 name = "imgur-i-illegally_enterd_space"
 route = "i-illegally.entered.space/*"
 zone_id = "dc9a163b42e7b3aa8fc6d68f6967e965"
+
+[env.kitchengun_rocks]
+name = "imgur-kitchengun_rocks"
+route = "*kitchengun.rocks/*"
+zone_id = "dbd99aa1ece796e8cd9db6a4e4df5976"
